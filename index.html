@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fready Fazbear pizza</title>
+    <title>Pemesanan Pizza</title>
     <link rel="shortcut icon" href="Image/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="gaya.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
     <!-- Header -->
     <header>
-        <h1 style="text-align:center;">Laman pemesanan Fready Fazbear Pizza</h1>
-        <p style="text-align:center;">Pizza lezat dengan harga terjangkau, cepat sampai ke rumah anda!🍕</p>
+        <h1>Pemesanan Pizza</h1>
+        <p>Pizza lezat, cepat sampai ke rumah anda!🍕</p>
         <nav>
         <a href="#menu">Lihat Menu</a> |
         <a href="#pesan">Pesan Sekarang</a> |
@@ -25,7 +25,7 @@
     <!-- Section: Gambar Promosi -->
     <section>
         <h2>Promo Hari Ini</h2>
-        <img src="Image/promo.jpg" alt="Promo Pizza" width="70%">
+        <img src="Image/promo.jpg" alt="Promo Pizza" width="300">
         <p><mark>Diskon 30%</mark> untuk semua pizza ukuran besar!</p>
         <ul>
             <li>🍞Rotinya empuk</li>
@@ -36,34 +36,33 @@
 
     <!-- Section: Menu -->
     <section id="menu">
-            <h2>Menu Pizza</h2>
-            <img src="Image/menu.png" alt="Menu Pizza" width="100%">
-            <table border="1">
-            <thead>
-                <tr>
-                    <th>Nama</th>
-                    <th>Ukuran</th>
-                    <th>Harga</th>
-                </tr>
-            </thead> 
-            <tbody>
-                <tr>
-                    <td>Pepperoni</td>
-                    <td>Kecil</td>
-                    <td>Rp 35.000</td>
-                </tr>
-                <tr>
-                    <td>Vegetarian</td>
-                    <td>Sedang</td>
-                    <td>Rp 50.000</td>
-                </tr>
-                <tr>
-                    <td>BBQ Chicken</td>
-                    <td>Besar</td>
-                    <td>Rp 70.000</td>
-                </tr>
-    </tbody>
-    </table>
+        <h2>Menu Pizza</h2>
+        <table border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Ukuran</th>
+                <th>Harga</th>
+            </tr>
+        </thead> 
+        <tbody>
+            <tr>
+                <td>Pepperoni</td>
+                <td>Kecil</td>
+                <td>Rp 35.000</td>
+            </tr>
+            <tr>
+                <td>Vegetarian</td>
+                <td>Sedang</td>
+                <td>Rp 50.000</td>
+            </tr>
+            <tr>
+                <td>BBQ Chicken</td>
+                <td>Besar</td>
+                <td>Rp 70.000</td>
+            </tr>
+        </tbody>
+        </table>
     </section>
 
     <!-- Section: Formulir Pemesanan -->
@@ -76,23 +75,11 @@
                 <label for="email">Email :</label><br>
                 <input type="email" id="email" name="email" placeholder="contoh@email.com"><br><br>
 
-                <label for="alamat">Alamat :</label><br>
-                <input type="alamat" id="alamat" name="alamat" placeholder="Indonesia"><br><br>
-
                 <label for="ukuran">Ukuran Pizza :</label><br>
                 <select name="ukuran" id="ukuran">
                     <option value="kecil">Kecil</option>
                     <option value="sedang">Sedang</option>
                     <option value="besar">Besar</option>
-                </select><br><br>
-
-                <label for="cabang">Cabang :</label><br>
-                <select name="cabang" id="cabang">
-                    <option value="jakarta">Jakarta</option>
-                    <option value="bogor">Bogor</option>
-                    <option value="depok">Depok</option>
-                    <option value="tanggerang">Tanggerang</option>
-                    <option value="bekasi">Bekasi</option>
                 </select><br><br>
 
                 <label>Pilih Topping :</label><br>
@@ -105,12 +92,9 @@
                 <input type="radio" name="jenis" value="Vegetarian"> Vegetarian
                 <input type="radio" name="jenis" value="BBQ Chicken"> BBQ Chicken<br><br>
 
-                <label>Cara Pengambilang :</label><br>
-                <input type="radio" name="Cara Pengambilang" value="Ambil ditempat"> Ambil ditempat
-                <input type="radio" name="Cara Pengambilang" value="Delivery"> Delivery<br><br>
-
                 <label for="catatan">Catatan Tambahan :</label><br>
                 <textarea name="catatan" id="catatan" rows="4" cols="30" placeholder="Contoh: Tanpa sambal,"></textarea><br><br>
+                
                 <button type="submit">Pesan Sekarang</button>
             </form>
         </section>
@@ -120,13 +104,13 @@
         <h2>Kontak Kami</h2>
         <p>📍 Jl.Pizza No.1 Jakarta</p>
         <p>📞 <b>0812-3456-7890</b></p>
-        <p>Email: <a href="mailto:info@fazbearpizza.com">info@fazbearpizza.com</a></p>
+        <p>Email: <a href="mailto:info@pizzamantap.com">info@pizzamantap.com</a></p>
     </section>
 
     <!-- Footer -->
     <footer>
         <hr>
-        <p><small>&copy; Made by: Fatih Al-Akram. All Rights Reserved</small></p>
+        <p><small>&copy; 2025 Pizza Mantap. All Rights Reserved</small></p>
     </footer>
     </div>
 
